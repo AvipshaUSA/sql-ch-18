@@ -5,7 +5,7 @@
 Write the following queries to get warmed up.
 1.	Return the mystery book titles and their ISBNs.
 select * from genre inner join book on genre.genre_id = book.genre_id where genres = "Mystery";
-![image](https://user-images.githubusercontent.com/68029807/123864552-82044280-d8f0-11eb-8075-7de54cdba486.png)
+
 
 
 SELECT title, isbn
